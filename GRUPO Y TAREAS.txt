@@ -1,0 +1,33 @@
+Pantallas
+
+
+Inicio con el título del juego SERGIO
+Créditos con el nombre de cada uno que vaya apareciendo cada cierto tiempo QUIEN LO LOGRE
+Nivel ROGER
+Derrota ROGER
+Victoria ROGER
+
+
+
+Nivel
+
+Jugador
+Movimiento en 8 direcciones SERGIO
+El jugador debe poder disparar con 2 armas diferentes. Cada uno es un disparo distinto, debe poder disparar con el mouse ROY 
+El jugador debe tener vida y munición ROY
+La cámara debe seguir al jugador RUBEN
+Al matar enemigos te dan puntaje SERGIO
+
+Al llegar a x puntaje ganas. Si te quedas sin vida pierdes = ROGER
+
+
+Enemigos
+4 tipos de enemigos RUBEN SERGIO ROGER ROY
+Enemigo suicida. melee y 2 de rango con diferente tipo de disparo
+SERGIO : RANGO
+ROY: SUICIDA
+RUBEN: MELEE
+ROGER: RANGO2
+
+Al morir los enemigos sueltan munión o vida. ROY
+Deben aparecer por rondas o waves que permite que los enemigos aparescan cada cierto tiempo SERGIO
