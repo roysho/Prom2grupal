@@ -6,7 +6,7 @@ public class EnemyMeleeLife : MonoBehaviour
 {
     [SerializeField] int life;
     private PlayerLife playerLife;
-    [SerializeField] GameObject municion;
+    [SerializeField] private GameObject municion;
 
 
     private void Awake()
