@@ -6,6 +6,7 @@ public class EnemyMeleeLife : MonoBehaviour
 {
     [SerializeField] int life;
     private PlayerLife playerLife;
+    [SerializeField] GameObject municion;
 
 
     private void Awake()
@@ -19,9 +20,20 @@ public class EnemyMeleeLife : MonoBehaviour
 
         if (life <= 0)
         {
+            DropMunicion();
             Destroy(gameObject);
+            
         }
 
+    }
+
+    void DropMunicion()
+    {
+        if (life <= 0)
+        {
+            GameObject drop = Instantiate(municion);
+            drop.transform.position = transform.position;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -43,17 +55,13 @@ public class EnemyMeleeLife : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             playerLife.CambioVida(-1);
-            Destroy(gameObject);
+            CambioVida(-1000);
         }
     }
 
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
     // Update is called once per frame
     void Update()
