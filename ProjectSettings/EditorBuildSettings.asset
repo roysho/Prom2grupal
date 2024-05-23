@@ -17,5 +17,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Roger/PantallaVictoria.unity
     guid: f21d4b4d9b2c7c841a7c7befd5926460
+  - enabled: 1
+    path: Assets/Scenes/Roy.unity
+    guid: 41aff0b59c24bc94d8d74bd64735a1bc
+  - enabled: 1
+    path: Assets/Scenes/Roger/Creditos.unity
+    guid: 71562027bd4c3fc43ae4555e00d13fc3
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
