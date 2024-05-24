@@ -34,7 +34,7 @@ public class EnemyAtackSer : MonoBehaviour
                 direccion = direccion.normalized;
                 GameObject obj = Instantiate(bulletPrefab);
                 obj.transform.position = transform.position;
-                //obj.GetComponent<BulletMovement>().SetDirection(direccion);
+                obj.GetComponent<balaMove>().Direccion(direccion);
                 shootTimer = 0;
                 municion -= 1;
             }
